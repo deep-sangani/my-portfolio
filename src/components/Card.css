@@ -3,10 +3,20 @@
    border:2px solid #0c5cd7;
    padding: 10px;
    border-radius: 10px;
-   padding-bottom: 30px;
    background-color: #29292B;
+   height: 480px;
+   cursor: pointer;
+   position: relative;
 
 
+}
+
+
+
+.card img{
+    max-height: 202px;
+    object-fit:contain;
+    background-color: #ffffff;
 }
 
 @media (max-width:930px){
@@ -22,7 +32,7 @@
 @media (min-width:1416px){
     .card:hover{
   
-        transform: scale(1.1);
+        transform: scale(1.03);
         margin: 0px 30px;
     }
    
@@ -33,6 +43,7 @@
 .card img{
     width: 100%;
     border-radius: 5px;
+   
    
 }
 
