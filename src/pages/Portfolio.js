@@ -8,12 +8,13 @@ import ProjectImgs from '../components/ProjectImgs'
 
 
 
+
 export default function Portfolio() {
  var projects =[
     {   name:"Real-time Pizza App",
         img:pizza,
         link:"https://github.com/deep-sangani/Realtime-Pizza-website",
-        desc:"Realtime pizza app is full stack project which include all type of e-comerce stuff like Item-menu,cart,payment option etc."
+        desc:"Realtime pizza app is full stack project which include all type of e-comerce stuff like Item-menu,cart,payment option etc.",
 
     },
     {   name:"Expence Tracker App",
